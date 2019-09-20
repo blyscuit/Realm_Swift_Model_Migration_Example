@@ -13,7 +13,7 @@ class MDNote: Object {
     @objc dynamic var identifier: String = ""
     @objc dynamic var content: String = ""
     @objc dynamic var lastEdited: Date = Date()
-    @objc dynamic var subTitle: String = ""
+//    @objc dynamic var subTitle: String = ""
     
     override class func primaryKey() -> String? {
         return "identifier"
